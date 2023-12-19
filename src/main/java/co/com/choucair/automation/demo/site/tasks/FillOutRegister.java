@@ -11,6 +11,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Hit;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
@@ -39,8 +40,10 @@ public class FillOutRegister implements Task {
                         Click.on(HOBBIES),
                         Click.on(LANGUAGES_LIST),
                         Click.on(SELECT_LANGUAGES),
+                        Click.on(EMPTY),
+                      //  Click.on(SELECT_SKILL),
                         SelectFromOptions.byValue(automationDemonData.get(0).getSkill()).from(SKILL),
-                        SelectFromOptions.byValue(automationDemonData.get(0).getCountry()).from(COUNTRY),
+                       // SelectFromOptions.byValue(automationDemonData.get(0).getCountry()).from(COUNTRY),
                         Click.on(COUNTRY_TWO),
                         Enter.theValue(automationDemonData.get(0).getCountryTwo()).into(INPUT_COUNTRY),
                         Hit.the(Keys.ENTER).into(COUNTRY_TWO),
