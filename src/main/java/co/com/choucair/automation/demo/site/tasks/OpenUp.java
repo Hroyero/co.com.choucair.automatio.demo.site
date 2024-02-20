@@ -3,7 +3,6 @@ package co.com.choucair.automation.demo.site.tasks;
 
 import co.com.choucair.automation.demo.site.userinterface.AutomationOpenUp;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;

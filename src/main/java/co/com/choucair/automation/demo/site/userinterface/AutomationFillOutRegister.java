@@ -12,7 +12,7 @@ public class AutomationFillOutRegister {
     public static final Target GENDER = Target.the("seleccionamos el genero masculino").located(By.xpath("//body/section[@id='section']/div[1]/div[1]/div[2]/form[1]/div[5]/div[1]/label[1]/input[1]"));
     public static final Target HOBBIES = Target.the("seleccionamos el hobbie movies").located(By.xpath("//input[@id='checkbox2']"));
     public static final Target LANGUAGES_LIST = Target.the("lista de lenguages").located(By.xpath("//div[@id='msdd']"));
-    public static final Target SELECT_LANGUAGES = Target.the("seleccionamos español en el lenguaje").located(By.xpath("//a[contains(text(),'Spanish')]"));
+    public static final Target SELECT_LANGUAGES = Target.the("seleccionamos español en el lenguaje").located(By.xpath("//a[contains(text(),'Arabic')]"));
     public static final Target EMPTY = Target.the("click para cerrar la pestalla de lenguages").located(By.xpath("//label[contains(text(),'Languages')]"));
     public static final Target SKILL = Target.the("seleccionamos la skill de soporte de cliente ").located(By.xpath("//select[@id='Skills']"));
     public static final Target COUNTRY = Target.the("seleccionamos el pais colombbia").located(By.xpath("//select[@id='countries']"));
